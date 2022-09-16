@@ -1,0 +1,761 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1663278916389260, "dur": 14839916, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663278916391670, "dur": 62258, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663278916454702, "dur": 84742, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663278916539525, "dur": 683462, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663278917222990, "dur": 13995758, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663278931218779, "dur": 10397, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663278965158278, "dur": 2260388, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663278965158652, "dur": 12584, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663278965171238, "dur": 65123, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663278965236364, "dur": 965687, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663278966202053, "dur": 1204649, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663278967406705, "dur": 11960, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663278967419276, "dur": 29, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1663278965923075, "dur": 262749, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663278965924993, "dur": 76940, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663278966161932, "dur": 7082, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663278966169018, "dur": 16798, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663278966170198, "dur": 14546, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663278966192554, "dur": 1817, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663278966191267, "dur": 3131, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663278967419400, "dur": 279, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1663278966288360, "dur":2169, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278966290539, "dur":210, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1663278966290820, "dur":54, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1663278966290876, "dur":1759, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1663278966292680, "dur":1082, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278966293762, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967392359, "dur":1047, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967393406, "dur":60, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967393466, "dur":13, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967393479, "dur":123, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967393603, "dur":14, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967393617, "dur":60, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967393677, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967393683, "dur":32, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967393715, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967393721, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967393744, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967393749, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967393773, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967393779, "dur":28, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967393807, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967393813, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967393837, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967393842, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967393867, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967393872, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967393895, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967393900, "dur":23, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967393924, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967393929, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967393951, "dur":106, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967394057, "dur":35, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967394092, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967394099, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967394117, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967394122, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967394138, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967394145, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967394161, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967394167, "dur":39, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967394206, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967394212, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967394229, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967394234, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967394251, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967394256, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967394272, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967394277, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967394294, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967394299, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967394314, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967394319, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967394335, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967394340, "dur":165, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967394505, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967394531, "dur":5, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967394570, "dur":5207, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1663278966292101, "dur":1680, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663278966293786, "dur":9243, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663278966303058, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1663278966303063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663278966305164, "dur":1331, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1663278966306502, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1663278966306659, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663278966307674, "dur":18566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1663278966326243, "dur":172578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Valve.Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663278966498829, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663278966500541, "dur":6499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Valve.Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663278966507121, "dur":96696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663278966603826, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663278966603909, "dur":2015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663278966605994, "dur":72506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663278966678508, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663278966678525, "dur":3347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663278966681964, "dur":58404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663278966740375, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663278966740387, "dur":1879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663278966742336, "dur":79349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663278966821692, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663278966821708, "dur":1862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663278966823664, "dur":384428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663278967208102, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663278967208118, "dur":17900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663278967226066, "dur":166360, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663278966292310, "dur":1531, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663278966293842, "dur":9291, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663278966303139, "dur":26365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1663278966329510, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663278966329543, "dur":1752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1663278966331356, "dur":166525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663278966497888, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663278966500398, "dur":6332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663278966506800, "dur":77997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663278966584810, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663278966584866, "dur":3045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663278966587999, "dur":53721, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663278966641727, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663278966641742, "dur":3179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663278966644990, "dur":56689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663278966701683, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663278966701693, "dur":1840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663278966703610, "dur":57999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663278966761616, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663278966761668, "dur":2406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663278966764140, "dur":348110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663278967112286, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663278967112300, "dur":4771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663278967117141, "dur":14964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/SteamVR/bindings_vive_cosmos_controller.json" }}
+,{ "pid":12345, "tid":2, "ts":1663278967132112, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663278967132128, "dur":2275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/SteamVR/bindings_vive_cosmos_controller.json" }}
+,{ "pid":12345, "tid":2, "ts":1663278967134490, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1663278967134561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663278967134571, "dur":2238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1663278967136976, "dur":12508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1663278967149524, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663278967149541, "dur":1701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1663278967151308, "dur":241088, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663278966292461, "dur":1431, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663278966293893, "dur":9174, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663278966303168, "dur":26556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1663278966329731, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663278966329875, "dur":1969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1663278966331929, "dur":61250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663278966393185, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663278966500543, "dur":6103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663278966506727, "dur":59749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663278966566483, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663278966566498, "dur":4712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663278966571264, "dur":49661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663278966620933, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663278966620950, "dur":2510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663278966623552, "dur":65103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663278966688662, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663278966688678, "dur":2534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663278966691282, "dur":91268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663278966782557, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663278966782573, "dur":4511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663278966787143, "dur":49015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663278966836169, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663278966836630, "dur":2989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663278966839690, "dur":131297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663278966970992, "dur":1712, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663278966972719, "dur":22579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663278966995363, "dur":68168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663278967063538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663278967063551, "dur":5975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663278967069594, "dur":155158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663278967224786, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663278967224804, "dur":2299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663278967227143, "dur":165203, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663278966292420, "dur":1449, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663278966293870, "dur":9293, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663278966303170, "dur":72281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663278966375459, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663278966376034, "dur":124134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663278966500250, "dur":65804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663278966566061, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663278966566105, "dur":4445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663278966570640, "dur":42743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663278966613390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663278966613403, "dur":2198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663278966615654, "dur":81801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663278966697500, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663278966697516, "dur":1984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663278966699567, "dur":236812, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663278966936414, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663278966936445, "dur":1384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663278966937892, "dur":201546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Oculus.Spatializer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663278967139446, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663278967139467, "dur":3297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Oculus.Spatializer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663278967142839, "dur":249500, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663278966294087, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663278966294088, "dur":8955, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663278966303058, "dur":25613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1663278966328679, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663278966328722, "dur":1713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1663278966330503, "dur":64517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663278966395028, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663278966500570, "dur":6687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663278966507332, "dur":220772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663278966728111, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663278966728126, "dur":2616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663278966730802, "dur":129368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663278966860177, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663278966860194, "dur":2695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663278966862973, "dur":345492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663278967208471, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663278967208491, "dur":17608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663278967226164, "dur":166205, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663278966294181, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663278966294182, "dur":8871, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663278966303061, "dur":548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1663278966303615, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663278966344661, "dur":366921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1663278966711667, "dur":54305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663278966765978, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663278966765991, "dur":1657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663278966767716, "dur":78990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663278966846712, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663278966846852, "dur":3244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663278966850157, "dur":175932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663278967026098, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663278967026119, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663278967027910, "dur":33961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Facebook.Wit.TTS.Samples.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663278967061878, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663278967061892, "dur":6224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Facebook.Wit.TTS.Samples.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663278967068183, "dur":44458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/AssistantCoreSDKRuntime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663278967112654, "dur":78, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663278967112745, "dur":4713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/AssistantCoreSDKRuntime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663278967117524, "dur":17669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/SteamVR/bindings_vive_controller.json" }}
+,{ "pid":12345, "tid":6, "ts":1663278967135200, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663278967135214, "dur":2231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/SteamVR/bindings_vive_controller.json" }}
+,{ "pid":12345, "tid":6, "ts":1663278967137542, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1663278967137621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663278967137631, "dur":2547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1663278967140260, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1663278967140331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663278967140341, "dur":2947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":6, "ts":1663278967143354, "dur":249028, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663278966294284, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663278966294285, "dur":8851, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663278966303137, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1663278966303436, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663278966307900, "dur":418200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1663278966726168, "dur":71350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663278966797525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663278966797538, "dur":1891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663278966799491, "dur":48682, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663278966848179, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663278966848192, "dur":2583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663278966850840, "dur":127040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663278966977887, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663278966977901, "dur":13879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663278966991844, "dur":113530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Oculus.AudioManager.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663278967105380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663278967105393, "dur":1988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Oculus.AudioManager.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663278967107447, "dur":10256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/SteamVR/binding_vive_cosmos.json" }}
+,{ "pid":12345, "tid":7, "ts":1663278967117709, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663278967117869, "dur":2449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/SteamVR/binding_vive_cosmos.json" }}
+,{ "pid":12345, "tid":7, "ts":1663278967120402, "dur":16800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/SteamVR/bindings_logitech_stylus.json" }}
+,{ "pid":12345, "tid":7, "ts":1663278967137209, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663278967137223, "dur":2094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/SteamVR/bindings_logitech_stylus.json" }}
+,{ "pid":12345, "tid":7, "ts":1663278967139414, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1663278967139490, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663278967139500, "dur":3021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":7, "ts":1663278967142605, "dur":249747, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663278966294467, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663278966294468, "dur":8656, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663278966303125, "dur":494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1663278966303626, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663278966353239, "dur":146576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1663278966499899, "dur":170897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663278966670805, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663278966670822, "dur":1642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663278966672528, "dur":48609, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663278966721144, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663278966721160, "dur":2089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663278966723330, "dur":244063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.XR.OpenVR.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663278966967399, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663278966967412, "dur":1731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.XR.OpenVR.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663278966969201, "dur":131836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Oculus.Interaction.Samples.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663278967101045, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663278967101062, "dur":2001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Oculus.Interaction.Samples.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663278967103133, "dur":12650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/SteamVR/binding_vive_tracker_camera.json" }}
+,{ "pid":12345, "tid":8, "ts":1663278967115791, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663278967117359, "dur":2598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/SteamVR/binding_vive_tracker_camera.json" }}
+,{ "pid":12345, "tid":8, "ts":1663278967120051, "dur":14830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/SteamVR/bindings_oculus_touch.json" }}
+,{ "pid":12345, "tid":8, "ts":1663278967134887, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663278967134901, "dur":2089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/SteamVR/bindings_oculus_touch.json" }}
+,{ "pid":12345, "tid":8, "ts":1663278967137084, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1663278967137168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663278967137178, "dur":9396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1663278967146655, "dur":245795, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663278966292893, "dur":1080, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663278966293973, "dur":9177, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663278966303155, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1663278966303405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663278966307092, "dur":5942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1663278966313076, "dur":56761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1663278966369845, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663278966370474, "dur":129529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1663278966500146, "dur":58207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663278966558360, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663278966558375, "dur":1725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663278966560181, "dur":52361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663278966612552, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663278966612570, "dur":2708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663278966615349, "dur":44349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663278966659705, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663278966659721, "dur":2354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663278966662150, "dur":56390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663278966718549, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663278966718565, "dur":1938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663278966720574, "dur":217482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663278966938093, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663278966938105, "dur":2495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.XR.OpenXR.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663278966940660, "dur":137791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Oculus.Platform.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663278967078457, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663278967078469, "dur":8723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Oculus.Platform.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663278967087264, "dur":17015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Plugins/x86_64/OVRPlugin.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663278967104285, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663278967104303, "dur":7325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Plugins/x86_64/OVRPlugin.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663278967111721, "dur":12763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/SteamVR/binding_rift.json" }}
+,{ "pid":12345, "tid":9, "ts":1663278967124493, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663278967124513, "dur":1662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/SteamVR/binding_rift.json" }}
+,{ "pid":12345, "tid":9, "ts":1663278967126262, "dur":14191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/SteamVR/bindings_holographic_controller.json" }}
+,{ "pid":12345, "tid":9, "ts":1663278967140462, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663278967140478, "dur":3323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/SteamVR/bindings_holographic_controller.json" }}
+,{ "pid":12345, "tid":9, "ts":1663278967143892, "dur":248463, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663278966292967, "dur":1019, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663278966293986, "dur":9059, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663278966303058, "dur":482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1663278966303545, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663278966331623, "dur":168146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1663278966499857, "dur":54093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663278966553957, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663278966553973, "dur":2344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663278966556396, "dur":80763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663278966637165, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663278966637180, "dur":1689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663278966638946, "dur":160408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663278966799361, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663278966799391, "dur":2821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663278966802273, "dur":39871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663278966842150, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663278966842164, "dur":2054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663278966844754, "dur":241006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663278967085765, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663278967085778, "dur":5493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663278967091338, "dur":6517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663278967097862, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663278967097880, "dur":6649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Plugins/x86_64/openxr_loader.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663278967104622, "dur":12405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/SteamVR/binding_vive_pro.json" }}
+,{ "pid":12345, "tid":10, "ts":1663278967117033, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663278967117446, "dur":3330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/SteamVR/binding_vive_pro.json" }}
+,{ "pid":12345, "tid":10, "ts":1663278967120866, "dur":17176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/SteamVR/bindings_knuckles.json" }}
+,{ "pid":12345, "tid":10, "ts":1663278967138049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663278967138063, "dur":2161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/SteamVR/bindings_knuckles.json" }}
+,{ "pid":12345, "tid":10, "ts":1663278967140310, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1663278967140522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663278967140533, "dur":2930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1663278967143526, "dur":248903, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663278966293110, "dur":893, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663278966294003, "dur":9086, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663278966303090, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1663278966303329, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663278966307552, "dur":189992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1663278966497607, "dur":75633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663278966573246, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663278966573263, "dur":2506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663278966575843, "dur":58788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663278966634638, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663278966634674, "dur":2507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663278966637253, "dur":65047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663278966702304, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663278966702314, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663278966704047, "dur":52388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663278966756444, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663278966756462, "dur":2047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663278966758575, "dur":132116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663278966890803, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663278966890817, "dur":29297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663278966920179, "dur":154750, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663278967074936, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663278967074952, "dur":2253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663278967077268, "dur":7257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Plugins/x86_64/InteractionSdk.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663278967084531, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663278967084707, "dur":3146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Plugins/x86_64/InteractionSdk.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663278967087936, "dur":73561, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Plugins/x86_64/OVRLipSync.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663278967161508, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663278967161528, "dur":29996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Plugins/x86_64/OVRLipSync.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663278967191613, "dur":200728, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663278966293166, "dur":853, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663278966294019, "dur":9187, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663278966303207, "dur":417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1663278966303632, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663278966499050, "dur":26393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1663278966525515, "dur":78709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663278966604231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663278966604244, "dur":1903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663278966606214, "dur":92021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663278966698242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663278966698261, "dur":1286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663278966699602, "dur":78774, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663278966778423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663278966778440, "dur":5677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663278966784180, "dur":83467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663278966867656, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663278966867672, "dur":2081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663278966870682, "dur":332933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663278967203632, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663278967203646, "dur":22343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663278967226038, "dur":166362, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663278966293270, "dur":775, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663278966294045, "dur":9071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663278966303127, "dur":24174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1663278966327308, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663278966327342, "dur":1655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1663278966329074, "dur":169021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663278966498103, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663278966500434, "dur":6186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663278966506722, "dur":127582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663278966634313, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663278966634330, "dur":2251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663278966636658, "dur":47889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663278966684553, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663278966684568, "dur":1876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663278966686506, "dur":58265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663278966744777, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663278966744790, "dur":4613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663278966749472, "dur":54292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663278966803798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663278966803812, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663278966805418, "dur":49670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663278966855094, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663278966855108, "dur":2972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663278966858148, "dur":282741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663278967140897, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663278967140911, "dur":3162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663278967144149, "dur":248237, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663278966293371, "dur":700, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663278966294071, "dur":9100, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663278966303172, "dur":261846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663278966565024, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663278966565036, "dur":33669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663278966598777, "dur":53608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663278966652393, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663278966652442, "dur":1725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663278966654231, "dur":54158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663278966708397, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663278966708414, "dur":1797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663278966710317, "dur":72547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663278966782870, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663278966783169, "dur":5551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663278966788777, "dur":87376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663278966876160, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663278966876175, "dur":23407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663278966899686, "dur":178251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663278967077942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663278967077954, "dur":15822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663278967093846, "dur":13082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/UnitySubsystems/XRSDKOpenVR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":14, "ts":1663278967106935, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663278967109429, "dur":1940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/UnitySubsystems/XRSDKOpenVR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":14, "ts":1663278967111434, "dur":15191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/SteamVR/binding_vive.json" }}
+,{ "pid":12345, "tid":14, "ts":1663278967126632, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663278967126648, "dur":1958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/SteamVR/binding_vive.json" }}
+,{ "pid":12345, "tid":14, "ts":1663278967128680, "dur":13184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/SteamVR/actions.json" }}
+,{ "pid":12345, "tid":14, "ts":1663278967141870, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663278967141918, "dur":2227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/SteamVR/actions.json" }}
+,{ "pid":12345, "tid":14, "ts":1663278967144232, "dur":248199, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663278966293489, "dur":612, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663278966294102, "dur":9067, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663278966303170, "dur":93784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663278966396962, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663278966397099, "dur":110678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663278966507845, "dur":84225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663278966592080, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663278966592098, "dur":1828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663278966594003, "dur":47213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663278966641224, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663278966641240, "dur":1897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663278966643200, "dur":50472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663278966693679, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663278966693693, "dur":1691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663278966695444, "dur":94023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663278966789473, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663278966789488, "dur":1891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663278966791437, "dur":3140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663278966794583, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663278966794597, "dur":1528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663278966796233, "dur":54874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663278966851113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663278966851126, "dur":5878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663278966857067, "dur":143114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663278967000187, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663278967000205, "dur":16673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663278967016944, "dur":201123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Facebook.WitAI.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663278967218077, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663278967218090, "dur":3715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Facebook.WitAI.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663278967221897, "dur":170507, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663278966293584, "dur":558, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663278966294143, "dur":9042, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663278966303187, "dur":115607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1663278966418800, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663278966418843, "dur":83543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1663278966502465, "dur":62088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663278966564559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663278966564570, "dur":1587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663278966566219, "dur":76155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663278966642381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663278966642395, "dur":3124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663278966645592, "dur":44680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663278966690278, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663278966690291, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663278966691787, "dur":70443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663278966762237, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663278966762251, "dur":2324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663278966764632, "dur":40829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663278966805468, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663278966805480, "dur":1418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Subsystem.Registration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663278966806956, "dur":37141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663278966844104, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663278966844119, "dur":2467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663278966846666, "dur":220190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663278967066863, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663278967066879, "dur":6664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663278967073611, "dur":3958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663278967077576, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663278967080831, "dur":2102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Plugins/x86_64/UnityOpenXR.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663278967083026, "dur":10518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Plugins/x86_64/ucrtbased.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663278967093550, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663278967093564, "dur":3919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Plugins/x86_64/ucrtbased.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663278967097582, "dur":11988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/UnitySubsystems/OculusXRPlugin/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":16, "ts":1663278967109577, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663278967110547, "dur":1419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/UnitySubsystems/OculusXRPlugin/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":16, "ts":1663278967112047, "dur":15669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/SteamVR/binding_holographic_hmd.json" }}
+,{ "pid":12345, "tid":16, "ts":1663278967127731, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663278967127748, "dur":1481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/SteamVR/binding_holographic_hmd.json" }}
+,{ "pid":12345, "tid":16, "ts":1663278967129313, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":16, "ts":1663278967129516, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663278967129529, "dur":1434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":16, "ts":1663278967131029, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":16, "ts":1663278967131097, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663278967131164, "dur":1836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":16, "ts":1663278967133063, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":16, "ts":1663278967133134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663278967133141, "dur":147658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":16, "ts":1663278967280844, "dur":111569, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1663278966293714, "dur":457, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1663278966294172, "dur":8887, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1663278966303061, "dur":27556, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":17, "ts":1663278966330621, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1663278966330650, "dur":1727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":17, "ts":1663278966332476, "dur":59633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1663278966392122, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1663278966500527, "dur":7087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1663278966507684, "dur":234711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":17, "ts":1663278966742401, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1663278966742416, "dur":2373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":17, "ts":1663278966744851, "dur":182194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":17, "ts":1663278966927054, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1663278966927071, "dur":2034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":17, "ts":1663278966929174, "dur":129672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/SteamVR.dll" }}
+,{ "pid":12345, "tid":17, "ts":1663278967058856, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1663278967058874, "dur":2042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/SteamVR.dll" }}
+,{ "pid":12345, "tid":17, "ts":1663278967061127, "dur":135179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Facebook.Wit.TTS.dll" }}
+,{ "pid":12345, "tid":17, "ts":1663278967196312, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1663278967196324, "dur":23511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Facebook.Wit.TTS.dll" }}
+,{ "pid":12345, "tid":17, "ts":1663278967219887, "dur":172462, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1663278966293814, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1663278966293816, "dur":9247, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1663278966303065, "dur":542, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":18, "ts":1663278966303619, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1663278966353882, "dur":147847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":18, "ts":1663278966501830, "dur":57564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1663278966559401, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1663278966559418, "dur":2483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1663278966561987, "dur":95799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1663278966657793, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1663278966657808, "dur":2277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1663278966660156, "dur":61366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":18, "ts":1663278966721529, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1663278966721541, "dur":2291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":18, "ts":1663278966723900, "dur":129499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.XR.Oculus.dll" }}
+,{ "pid":12345, "tid":18, "ts":1663278966853406, "dur":153, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1663278966853573, "dur":4346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.XR.Oculus.dll" }}
+,{ "pid":12345, "tid":18, "ts":1663278966857996, "dur":70475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":18, "ts":1663278966928478, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1663278966928492, "dur":2475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":18, "ts":1663278966931028, "dur":330161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Oculus.VR.dll" }}
+,{ "pid":12345, "tid":18, "ts":1663278967261197, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1663278967261213, "dur":2445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Oculus.VR.dll" }}
+,{ "pid":12345, "tid":18, "ts":1663278967263698, "dur":128677, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1663278966293896, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1663278966293897, "dur":9143, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1663278966303061, "dur":440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":19, "ts":1663278966303514, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1663278966309927, "dur":189736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":19, "ts":1663278966499737, "dur":73957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1663278966573702, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1663278966573717, "dur":2291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1663278966576170, "dur":69994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1663278966646172, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1663278966646190, "dur":1788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1663278966648484, "dur":114782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1663278966763273, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1663278966763285, "dur":2645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1663278966765988, "dur":39418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":19, "ts":1663278966805412, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1663278966805425, "dur":4983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":19, "ts":1663278966810472, "dur":152554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":19, "ts":1663278966963033, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1663278966963046, "dur":2308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":19, "ts":1663278966965415, "dur":174853, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Oculus.LipSync.dll" }}
+,{ "pid":12345, "tid":19, "ts":1663278967140274, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1663278967140289, "dur":4005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Oculus.LipSync.dll" }}
+,{ "pid":12345, "tid":19, "ts":1663278967144356, "dur":248108, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1663278966293985, "dur":2, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1663278966293987, "dur":9084, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1663278966303073, "dur":466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":20, "ts":1663278966303551, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1663278966332441, "dur":400623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":20, "ts":1663278966733132, "dur":174448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":20, "ts":1663278966907590, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1663278966907611, "dur":12494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":20, "ts":1663278966920169, "dur":172583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":20, "ts":1663278967092966, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1663278967092984, "dur":2746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":20, "ts":1663278967095802, "dur":11832, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":20, "ts":1663278967107640, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1663278967109463, "dur":2364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":20, "ts":1663278967111895, "dur":20681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/SteamVR/binding_index_hmd.json" }}
+,{ "pid":12345, "tid":20, "ts":1663278967132582, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1663278967132596, "dur":2563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/StreamingAssets/SteamVR/binding_index_hmd.json" }}
+,{ "pid":12345, "tid":20, "ts":1663278967135241, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":20, "ts":1663278967135462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1663278967135472, "dur":1831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":20, "ts":1663278967137369, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/resources.assets" }}
+,{ "pid":12345, "tid":20, "ts":1663278967137436, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1663278967137477, "dur":5561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/resources.assets" }}
+,{ "pid":12345, "tid":20, "ts":1663278967143113, "dur":249223, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1663278966292516, "dur":1405, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1663278966293922, "dur":9222, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1663278966303145, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":21, "ts":1663278966303396, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1663278966306633, "dur":23905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":21, "ts":1663278966330617, "dur":40277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1663278966370899, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1663278966500390, "dur":5792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1663278966506260, "dur":111074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1663278966617339, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1663278966617349, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1663278966618890, "dur":51965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1663278966670862, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1663278966670877, "dur":1846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1663278966672883, "dur":166340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1663278966839231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1663278966839248, "dur":2452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1663278966841756, "dur":140792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":21, "ts":1663278966982852, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1663278966982866, "dur":12020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":21, "ts":1663278966994950, "dur":155772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":21, "ts":1663278967150729, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1663278967150745, "dur":2431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":21, "ts":1663278967153239, "dur":239178, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1663278966292598, "dur":1343, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1663278966293941, "dur":9108, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1663278966303057, "dur":17702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":22, "ts":1663278966320789, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1663278966320887, "dur":1106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":22, "ts":1663278966322034, "dur":175972, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/VoiceSDK.Runtime.dll" }}
+,{ "pid":12345, "tid":22, "ts":1663278966498013, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1663278966500425, "dur":7343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/VoiceSDK.Runtime.dll" }}
+,{ "pid":12345, "tid":22, "ts":1663278966507840, "dur":57952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1663278966565798, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1663278966565812, "dur":2723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1663278966568601, "dur":71053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1663278966639664, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1663278966639678, "dur":1714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1663278966641466, "dur":51165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1663278966692638, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1663278966692651, "dur":1697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1663278966694409, "dur":51072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1663278966745487, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1663278966745499, "dur":3741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1663278966749308, "dur":101173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":22, "ts":1663278966850533, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1663278966850546, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":22, "ts":1663278966852423, "dur":81907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":22, "ts":1663278966934337, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1663278966934352, "dur":1773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":22, "ts":1663278966936183, "dur":74989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Oculus.Voice.Demo.dll" }}
+,{ "pid":12345, "tid":22, "ts":1663278967011181, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1663278967011197, "dur":2071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Oculus.Voice.Demo.dll" }}
+,{ "pid":12345, "tid":22, "ts":1663278967013334, "dur":267888, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":22, "ts":1663278967281227, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1663278967281238, "dur":1218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":22, "ts":1663278967282496, "dur":109864, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1663278966292707, "dur":1249, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1663278966293956, "dur":9236, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1663278966303197, "dur":62811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass.exe" }}
+,{ "pid":12345, "tid":23, "ts":1663278966366019, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1663278966366058, "dur":135874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass.exe" }}
+,{ "pid":12345, "tid":23, "ts":1663278966502014, "dur":65294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1663278966567315, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1663278966567330, "dur":4316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1663278966571750, "dur":44504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1663278966616259, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1663278966616269, "dur":1973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1663278966618301, "dur":64033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1663278966682341, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1663278966682388, "dur":1930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1663278966684393, "dur":58447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1663278966742846, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1663278966742859, "dur":3600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1663278966746731, "dur":142538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":23, "ts":1663278966889279, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1663278966889295, "dur":6751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":23, "ts":1663278966896116, "dur":66176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":23, "ts":1663278966962328, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1663278966962468, "dur":9233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":23, "ts":1663278966971763, "dur":173005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Oculus.Interaction.dll" }}
+,{ "pid":12345, "tid":23, "ts":1663278967144775, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1663278967144794, "dur":2058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Oculus.Interaction.dll" }}
+,{ "pid":12345, "tid":23, "ts":1663278967146918, "dur":245519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1663278966294377, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1663278966294378, "dur":8678, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1663278966303062, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":24, "ts":1663278966303324, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1663278966308230, "dur":190378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":24, "ts":1663278966498700, "dur":51567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1663278966550277, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1663278966550439, "dur":2039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1663278966552552, "dur":156567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1663278966709126, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1663278966709141, "dur":2094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1663278966711319, "dur":54296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":24, "ts":1663278966765621, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1663278966765634, "dur":2784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll" }}
+,{ "pid":12345, "tid":24, "ts":1663278966768498, "dur":47479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":24, "ts":1663278966815984, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1663278966816000, "dur":2468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":24, "ts":1663278966818527, "dur":163268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":24, "ts":1663278966981801, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1663278966981815, "dur":17145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":24, "ts":1663278966999032, "dur":386244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":24, "ts":1663278967385286, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1663278967385305, "dur":6775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/rafae/OneDrive/Documentos/Workspace/Build/vrclass_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":24, "ts":1663278967392159, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":24, "ts":1663278967392165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663278967402880, "dur":3459, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1663278967419751, "dur": 1222, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663278967419263, "dur": 1737, "ph": "X", "name": "Write chrome-trace events", "args": {} },
