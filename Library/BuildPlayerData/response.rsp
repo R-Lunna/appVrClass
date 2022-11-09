@@ -49,7 +49,6 @@
 -s="C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Data\Managed\UnityEngine"
 -s="C:\Users\rafae\OneDrive\Documentos\Workspace\TCC\App\appVrClass\Library\PlayerScriptAssemblies"
 -s="C:\Users\rafae\OneDrive\Documentos\Workspace\TCC\App\appVrClass\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\AOT"
--s="C:\Users\rafae\OneDrive\Documentos\Workspace\TCC\App\appVrClass\Assets\SteamVR\Input\Plugins\JSON.NET"
 -s="C:\Users\rafae\OneDrive\Documentos\Workspace\TCC\App\appVrClass\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator"
 -s="C:\Users\rafae\OneDrive\Documentos\Workspace\TCC\App\appVrClass\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime"
 -s="C:\Users\rafae\OneDrive\Documentos\Workspace\TCC\App\appVrClass\Library\PackageCache\com.unity.ext.nunit@2.0.2\net40\unity-custom"
