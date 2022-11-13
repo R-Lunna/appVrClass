@@ -6,7 +6,7 @@ ScriptsOnlyBuild:
     - LoginMenuController
     - OVRTouchSample.Hand
     - OVRTouchSample.HandPose
-    - VideoController
+    - YoutubePlayer.VideoController
     Oculus.Spatializer.dll:
     - ONSPSettings
     Oculus.VR.Editor.dll:
@@ -82,6 +82,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.RectMask2D
     - UnityEngine.UI.ScrollRect
     - UnityEngine.UI.Scrollbar
+    YoutubePlayer.dll:
+    - YoutubePlayer.YoutubePlayer
   serializedClasses:
     Oculus.VR.Editor:
     - Assets.Oculus.VR.Editor.AssetConfigList
@@ -152,7 +154,7 @@ ScriptsOnlyBuild:
     fullTypeName: LoginMenuController
     methodName: UpdateLogin
   - assembly: Assembly-CSharp
-    fullTypeName: VideoController
+    fullTypeName: YoutubePlayer.VideoController
     methodName: BackVideo
   sceneClasses:
     Assets/Scenes/classroom.unity:
@@ -193,45 +195,47 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1888}
+      Script: {instanceID: 1892}
     - Class: 114
-      Script: {instanceID: 1894}
+      Script: {instanceID: 1898}
     - Class: 114
-      Script: {instanceID: 2218}
+      Script: {instanceID: 2222}
     - Class: 114
-      Script: {instanceID: 2424}
+      Script: {instanceID: 2428}
     - Class: 114
-      Script: {instanceID: 2706}
+      Script: {instanceID: 2710}
     - Class: 114
-      Script: {instanceID: 3036}
+      Script: {instanceID: 3040}
     - Class: 114
-      Script: {instanceID: 3294}
+      Script: {instanceID: 3298}
     - Class: 114
-      Script: {instanceID: 3598}
+      Script: {instanceID: 3602}
     - Class: 114
-      Script: {instanceID: 4182}
+      Script: {instanceID: 4186}
     - Class: 114
-      Script: {instanceID: 4346}
+      Script: {instanceID: 4350}
     - Class: 114
-      Script: {instanceID: 4656}
+      Script: {instanceID: 4426}
     - Class: 114
-      Script: {instanceID: 4684}
+      Script: {instanceID: 4662}
     - Class: 114
-      Script: {instanceID: 4720}
+      Script: {instanceID: 4690}
     - Class: 114
-      Script: {instanceID: 5870}
+      Script: {instanceID: 4726}
     - Class: 114
-      Script: {instanceID: 5978}
+      Script: {instanceID: 5876}
     - Class: 114
-      Script: {instanceID: 6080}
+      Script: {instanceID: 5984}
     - Class: 114
-      Script: {instanceID: 6632}
+      Script: {instanceID: 6086}
     - Class: 114
-      Script: {instanceID: 6824}
+      Script: {instanceID: 6638}
     - Class: 114
-      Script: {instanceID: 48848}
+      Script: {instanceID: 6830}
     - Class: 114
-      Script: {instanceID: 97066}
+      Script: {instanceID: 28470}
+    - Class: 114
+      Script: {instanceID: 30212}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -257,8 +261,6 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
     - Class: 328
-      Script: {instanceID: 0}
-    - Class: 329
       Script: {instanceID: 0}
     Assets/Scenes/mainMenu.unity:
     - Class: 1
@@ -302,75 +304,75 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1894}
+      Script: {instanceID: 1898}
     - Class: 114
-      Script: {instanceID: 1896}
+      Script: {instanceID: 1900}
     - Class: 114
-      Script: {instanceID: 2218}
+      Script: {instanceID: 2222}
     - Class: 114
-      Script: {instanceID: 2424}
+      Script: {instanceID: 2428}
     - Class: 114
-      Script: {instanceID: 2470}
+      Script: {instanceID: 2474}
     - Class: 114
-      Script: {instanceID: 2560}
+      Script: {instanceID: 2564}
     - Class: 114
-      Script: {instanceID: 2706}
+      Script: {instanceID: 2710}
     - Class: 114
-      Script: {instanceID: 3036}
+      Script: {instanceID: 3040}
     - Class: 114
-      Script: {instanceID: 3294}
+      Script: {instanceID: 3298}
     - Class: 114
-      Script: {instanceID: 3598}
+      Script: {instanceID: 3602}
     - Class: 114
-      Script: {instanceID: 4182}
+      Script: {instanceID: 4186}
     - Class: 114
-      Script: {instanceID: 4346}
+      Script: {instanceID: 4350}
     - Class: 114
-      Script: {instanceID: 4424}
+      Script: {instanceID: 4430}
     - Class: 114
-      Script: {instanceID: 4656}
+      Script: {instanceID: 4662}
     - Class: 114
-      Script: {instanceID: 4684}
-    - Class: 114
-      Script: {instanceID: 4720}
+      Script: {instanceID: 4690}
     - Class: 114
       Script: {instanceID: 4726}
     - Class: 114
-      Script: {instanceID: 4736}
+      Script: {instanceID: 4732}
     - Class: 114
-      Script: {instanceID: 5040}
+      Script: {instanceID: 4742}
     - Class: 114
-      Script: {instanceID: 5282}
+      Script: {instanceID: 5046}
     - Class: 114
-      Script: {instanceID: 5678}
+      Script: {instanceID: 5288}
     - Class: 114
-      Script: {instanceID: 5870}
+      Script: {instanceID: 5684}
     - Class: 114
-      Script: {instanceID: 5938}
+      Script: {instanceID: 5876}
     - Class: 114
-      Script: {instanceID: 5978}
+      Script: {instanceID: 5944}
     - Class: 114
-      Script: {instanceID: 6000}
+      Script: {instanceID: 5984}
     - Class: 114
-      Script: {instanceID: 6080}
+      Script: {instanceID: 6006}
     - Class: 114
-      Script: {instanceID: 6632}
+      Script: {instanceID: 6086}
     - Class: 114
-      Script: {instanceID: 6764}
+      Script: {instanceID: 6638}
     - Class: 114
-      Script: {instanceID: 6824}
+      Script: {instanceID: 6770}
     - Class: 114
-      Script: {instanceID: 7154}
+      Script: {instanceID: 6830}
     - Class: 114
-      Script: {instanceID: 7186}
+      Script: {instanceID: 7160}
     - Class: 114
-      Script: {instanceID: 7250}
+      Script: {instanceID: 7192}
     - Class: 114
-      Script: {instanceID: 8008}
+      Script: {instanceID: 7256}
     - Class: 114
-      Script: {instanceID: 8394}
+      Script: {instanceID: 8014}
     - Class: 114
-      Script: {instanceID: 9092}
+      Script: {instanceID: 8398}
+    - Class: 114
+      Script: {instanceID: 9096}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -1614,6 +1616,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
     className: PhysicsGrabbable
+  - hash:
+      serializedVersion: 2
+      Hash: 5d429a583ed70c7c705e131b98955193
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: YoutubePlayer
+    className: VideoController
   - hash:
       serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
@@ -4130,12 +4138,18 @@ ScriptsOnlyBuild:
     className: TrackSegment
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: VideoController
+      Hash: 820253c257d7f9726739d0866a7bad77
+    assemblyName: YoutubePlayer.dll
+    namespaceName: YoutubePlayer
+    className: InvidiousPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 3ee0807ae00fa512c564aee1b403fd82
+    assemblyName: YoutubePlayer.dll
+    namespaceName: YoutubePlayer
+    className: YoutubePlayer
   platform: 13
   scenePathNames:
   - Assets/Scenes/mainMenu.unity
   - Assets/Scenes/classroom.unity
-  playerPath: C:/Users/rafae/OneDrive/Documentos/Workspace/Build/Vrclass4.apk
+  playerPath: C:/Users/rafae/OneDrive/Documentos/Workspace/Build/Vrclass.apk

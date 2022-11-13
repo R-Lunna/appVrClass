@@ -3,23 +3,40 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
-
-public class VideoController : MonoBehaviour {
-
-    void Start()
+using UnityEngine.Video;
+namespace YoutubePlayer
+{
+    public class VideoController : MonoBehaviour
     {
-        this.UpdateLogin();
-    }
 
-    /// <summary>Atualiza a tela de login.</summary>
-    public void UpdateLogin()
-    {
-        //this.LoginButton.interactable = (this.Login.Length > 0 && this.Password.Length > 0);
-    }
+        public YoutubePlayer youtubePlayer;
+        VideoPlayer videoPlayer;
 
+        private void Start()
+        {
+            videoPlayer = youtubePlayer.GetComponent<VideoPlayer>();
+            Prepare();
 
-    public void BackVideo()
-    {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("mainMenu");
+        }
+
+        public async void Prepare()
+        {
+            try
+            {
+                await youtubePlayer.PrepareVideoAsync();
+                videoPlayer.Play();
+            }
+            catch
+            {
+                print("Erro");
+            }
+        }
+
+        public void BackVideo()
+        {
+            UnityEngine.SceneManagement.SceneManager.LoadScene("mainMenu");
+        }
     }
 }
+
+

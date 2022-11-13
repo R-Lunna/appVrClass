@@ -42,6 +42,7 @@
 -a="C:\Users\rafae\OneDrive\Documentos\Workspace\TCC\App\appVrClass\Library\PlayerScriptAssemblies\Unity.XR.Oculus.dll"
 -a="C:\Users\rafae\OneDrive\Documentos\Workspace\TCC\App\appVrClass\Library\PlayerScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll"
 -a="C:\Users\rafae\OneDrive\Documentos\Workspace\TCC\App\appVrClass\Library\PlayerScriptAssemblies\Unity.Services.Core.Device.dll"
+-a="C:\Users\rafae\OneDrive\Documentos\Workspace\TCC\App\appVrClass\Library\PlayerScriptAssemblies\YoutubePlayer.dll"
 -a="C:\Users\rafae\OneDrive\Documentos\Workspace\TCC\App\appVrClass\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\AOT\Newtonsoft.Json.dll"
 -a="C:\Users\rafae\OneDrive\Documentos\Workspace\TCC\App\appVrClass\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll"
 -a="C:\Users\rafae\OneDrive\Documentos\Workspace\TCC\App\appVrClass\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll"
